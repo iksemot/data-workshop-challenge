@@ -1,0 +1,12 @@
+version: '3'
+services:
+  data-workshop-challenge:
+    build: .
+    ports:
+    - 8888:8888
+    volumes:
+    - ./README.md:/root/project/README.md
+    - ./challenges:/root/project/challenges
+    # - ./jupyter-config:/root/.jupyter
+    container_name: data-workshop-challenge
+    image: data-workshop-challenge:latest
