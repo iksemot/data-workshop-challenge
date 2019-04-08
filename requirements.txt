@@ -6,3 +6,5 @@ scikit-learn
 matplotlib
 seaborn
 scikit-optimize
+intel-tensorflow
+keras
